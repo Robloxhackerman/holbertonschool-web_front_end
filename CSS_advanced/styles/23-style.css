@@ -103,6 +103,11 @@ a:active {
     text-align: var(--section-header-align);
     padding: var(--section-header-padding);
 }
+[data-section-theme="dark"] {
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
+    background-color: var(--color-black);
+}
 .section-body {
     padding: var(--section-body-padding);
 }
@@ -160,11 +165,6 @@ ul.row {
     float: left;
     padding: 0.5rem;
 }
-[data-section-theme=“dark”] {
-    --text-color: var(--color-white);
-    --section-title-color: var(--color-black);
-    background-color: var(--color-black);
-}
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
@@ -179,4 +179,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 .footer ul {
     text-align: right;
+}
+.footer-adress {
+    color: var(--text-color);
+}
+.social-link {
+    display: block;
+}
+.social-link > svg {
+    fill: var(--text-color);
 }
