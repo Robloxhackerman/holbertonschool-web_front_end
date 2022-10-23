@@ -59,12 +59,12 @@
     --button-hover-text-decoration: none;
     --button-hover-background: var(--color-primary);
 
-    --header-: 4rem 0 0;
-    --header-logo-: relative;
-    --header-logo-: inline-block;
-    --header-logo-: absolute;
-    --header-logo-: -1rem;
-    --header-logo-: 0;
+    --header-padding: 4rem 0 0;
+    --header-logo-position: relative;
+    --header-logo-link-display: inline-block;
+    --header-logo-link-position: absolute;
+    --header-logo-link-top: -1rem;
+    --header-logo-link-left: 0;
 }
 *, *:before, *:after {
     box-sizing: border-box;
